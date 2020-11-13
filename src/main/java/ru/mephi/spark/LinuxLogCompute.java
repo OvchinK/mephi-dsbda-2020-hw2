@@ -24,8 +24,7 @@ public class LinuxLogCompute {
     public static void main(String[] args)
     {
         SparkConf sparkConf = new SparkConf()
-                .setAppName("linux-logs")
-                .setMaster("local");
+                .setAppName("linux-logs");
 
         //Create a spark context based on created configuration
         JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
