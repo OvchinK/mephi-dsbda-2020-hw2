@@ -1,6 +1,11 @@
 package ru.mephi.spark.data;
 import java.util.Calendar;
 
+/**
+ * Util class
+ * <p>
+ * Parses string log into LinuxLog class
+ */
 public class Util {
     public static LinuxLog parseLog(String log) {
         String[] splitLog = log.split(" ");

@@ -7,6 +7,9 @@ import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+/**
+ * Data class for aggregated value
+ */
 @Data
 @AllArgsConstructor
 public class LogCounts implements Serializable

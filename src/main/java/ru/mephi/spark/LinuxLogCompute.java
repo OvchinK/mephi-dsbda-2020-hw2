@@ -10,6 +10,11 @@ import scala.Tuple2;
 
 public class LinuxLogCompute {
 
+    /**
+     * Aggregate logs by hours
+     * @param logInfoRDD Source logs
+     * @return Aggregated logs
+     */
     static JavaRDD<LogCounts> countLogs(JavaRDD<LinuxLog> logInfoRDD)
     {
         return logInfoRDD

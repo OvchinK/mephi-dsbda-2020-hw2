@@ -6,6 +6,9 @@ import lombok.Data;
 import java.io.Serializable;
 import java.util.Calendar;
 
+/**
+ * Data class for source log
+ */
 @Data
 @AllArgsConstructor
 public class LinuxLog implements Serializable {
